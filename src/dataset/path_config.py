@@ -35,7 +35,7 @@ def get_dataset_path(name):
             └── t1
                 └── *.jpg
         """
-        return '/data_path/pcd'
+        return ''
 
     if name == 'PCD_CV':
         """
@@ -55,7 +55,7 @@ def get_dataset_path(name):
         ├── set3
         └── set4
         """
-        return '/data_path/pcd_5cv'
+        return '/Users/chikaagbakuru/Documents/C-3po/pcd'
 
     if name == 'CMU_binary':
         """
@@ -68,7 +68,7 @@ def get_dataset_path(name):
             ├── t0
             └── t1
         """
-        return '/data_path/VL-CMU-CD-binary255'
+        return '//Users/chikaagbakuru/Documents/C-3po/VL-CMU-CD-binary_mask'
 
     if name == 'CMU_raw':
         """
